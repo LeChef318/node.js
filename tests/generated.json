@@ -1,0 +1,227 @@
+[
+  {
+    "_id": "66d16e896324b82dd651db98",
+    "index": 0,
+    "guid": "0a52d7e2-8fe1-494d-9440-374048b5ef8d",
+    "isActive": false,
+    "balance": "$2,743.99",
+    "picture": "http://placehold.it/32x32",
+    "age": 37,
+    "eyeColor": "blue",
+    "name": "Clements Mcmillan",
+    "gender": "male",
+    "company": "MARVANE",
+    "email": "clementsmcmillan@marvane.com",
+    "phone": "+1 (832) 524-3023",
+    "address": "467 Kingsway Place, Wadsworth, Federated States Of Micronesia, 5737",
+    "about": "Dolor duis velit tempor duis Lorem voluptate nulla voluptate aliqua. Do id commodo commodo ea ea aute proident duis. Dolor consectetur tempor dolore dolor cupidatat. Aliquip eu nostrud eu sit veniam. Id fugiat sint ullamco sit elit. Sunt eiusmod aute elit commodo minim commodo duis. Proident sit sint eu elit exercitation magna duis deserunt laborum.\r\n",
+    "registered": "2019-01-03T03:27:21 -01:00",
+    "latitude": -34.175406,
+    "longitude": 5.644513,
+    "tags": [
+      "ad",
+      "sit",
+      "amet",
+      "irure",
+      "reprehenderit",
+      "Lorem",
+      "veniam"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Wilkerson Huffman"
+      },
+      {
+        "id": 1,
+        "name": "Parrish Nelson"
+      },
+      {
+        "id": 2,
+        "name": "Dollie Moreno"
+      }
+    ],
+    "greeting": "Hello, Clements Mcmillan! You have 8 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "66d16e89eb2ad75f11b83292",
+    "index": 1,
+    "guid": "6f930456-235d-470f-b387-98cdb1f5151a",
+    "isActive": false,
+    "balance": "$3,051.57",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "eyeColor": "green",
+    "name": "Becky Sampson",
+    "gender": "female",
+    "company": "MICROLUXE",
+    "email": "beckysampson@microluxe.com",
+    "phone": "+1 (915) 481-2201",
+    "address": "365 Kings Hwy, Bannock, Georgia, 7343",
+    "about": "Est adipisicing sint qui ex non ipsum enim ex ut ut exercitation enim occaecat non. Ullamco et esse duis cillum dolor elit duis irure et exercitation deserunt laboris aute. Ipsum eiusmod commodo labore consectetur velit dolor. Adipisicing voluptate labore ipsum commodo dolore tempor dolore voluptate ad Lorem consectetur consequat.\r\n",
+    "registered": "2022-09-03T02:50:14 -02:00",
+    "latitude": 9.48194,
+    "longitude": -19.720366,
+    "tags": [
+      "ipsum",
+      "irure",
+      "qui",
+      "sit",
+      "ut",
+      "aliqua",
+      "eiusmod"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Callie Massey"
+      },
+      {
+        "id": 1,
+        "name": "Ashley Blake"
+      },
+      {
+        "id": 2,
+        "name": "Iris Aguirre"
+      }
+    ],
+    "greeting": "Hello, Becky Sampson! You have 5 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "66d16e899aa108c143ed5ff3",
+    "index": 2,
+    "guid": "9c07655f-dd3c-4e67-8aff-cff26ade6cfe",
+    "isActive": true,
+    "balance": "$1,955.96",
+    "picture": "http://placehold.it/32x32",
+    "age": 25,
+    "eyeColor": "blue",
+    "name": "Rene Ramos",
+    "gender": "female",
+    "company": "SYNKGEN",
+    "email": "reneramos@synkgen.com",
+    "phone": "+1 (840) 415-2664",
+    "address": "971 Sheffield Avenue, Gordon, Minnesota, 371",
+    "about": "Ipsum sunt ea voluptate voluptate minim ea esse ipsum proident voluptate duis esse ex. Ea eiusmod magna et eiusmod dolore ad eu. Nisi officia aliquip veniam cupidatat exercitation sunt. Voluptate reprehenderit duis adipisicing pariatur fugiat amet commodo ullamco est mollit. Nostrud laboris minim laborum minim Lorem voluptate nulla qui.\r\n",
+    "registered": "2021-02-18T08:59:36 -01:00",
+    "latitude": 24.133419,
+    "longitude": -139.060476,
+    "tags": [
+      "voluptate",
+      "eu",
+      "nostrud",
+      "sunt",
+      "enim",
+      "nulla",
+      "pariatur"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jerri Goff"
+      },
+      {
+        "id": 1,
+        "name": "Crane Callahan"
+      },
+      {
+        "id": 2,
+        "name": "Sondra Hardy"
+      }
+    ],
+    "greeting": "Hello, Rene Ramos! You have 6 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "66d16e89f294851c0f77e9e6",
+    "index": 3,
+    "guid": "311f488b-379f-4841-ab91-66ddf8ec875e",
+    "isActive": true,
+    "balance": "$2,619.29",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "eyeColor": "blue",
+    "name": "Brittney Crosby",
+    "gender": "female",
+    "company": "PHARMACON",
+    "email": "brittneycrosby@pharmacon.com",
+    "phone": "+1 (995) 522-3544",
+    "address": "781 Lake Place, Greenfields, Guam, 7172",
+    "about": "Laborum laborum nostrud aliquip aliqua nostrud minim excepteur in do eiusmod qui. Sint nostrud sunt consequat cillum dolor voluptate sunt excepteur incididunt velit laborum quis. Exercitation elit labore ea anim laborum dolore mollit adipisicing nostrud eiusmod. Ad pariatur aliquip nisi Lorem laborum ex culpa voluptate esse adipisicing amet.\r\n",
+    "registered": "2024-07-30T12:06:07 -02:00",
+    "latitude": -69.517109,
+    "longitude": -95.284946,
+    "tags": [
+      "reprehenderit",
+      "proident",
+      "laborum",
+      "cillum",
+      "occaecat",
+      "occaecat",
+      "dolore"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Clarke Dickerson"
+      },
+      {
+        "id": 1,
+        "name": "Lizzie Graves"
+      },
+      {
+        "id": 2,
+        "name": "Robertson Puckett"
+      }
+    ],
+    "greeting": "Hello, Brittney Crosby! You have 8 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "66d16e89de1639ee7d3730a0",
+    "index": 4,
+    "guid": "a496d07b-48ce-40f6-ab1d-ae2b542eb865",
+    "isActive": false,
+    "balance": "$2,053.12",
+    "picture": "http://placehold.it/32x32",
+    "age": 39,
+    "eyeColor": "blue",
+    "name": "Harmon Forbes",
+    "gender": "male",
+    "company": "ENQUILITY",
+    "email": "harmonforbes@enquility.com",
+    "phone": "+1 (822) 523-2556",
+    "address": "697 Harrison Place, Bartonsville, Texas, 6011",
+    "about": "Adipisicing ea culpa Lorem qui ut sunt nulla magna sunt sint. Ut cillum aute labore eu Lorem mollit voluptate consectetur do duis laboris consectetur eiusmod pariatur. Aute adipisicing velit quis amet commodo incididunt deserunt magna ex anim pariatur. Labore aute excepteur est laboris duis ad dolore nisi. Cillum deserunt esse cillum minim occaecat occaecat pariatur officia aute occaecat est. Labore adipisicing tempor reprehenderit occaecat incididunt ex enim cupidatat esse reprehenderit est non duis.\r\n",
+    "registered": "2020-12-15T04:22:13 -01:00",
+    "latitude": 5.510725,
+    "longitude": 125.828947,
+    "tags": [
+      "sunt",
+      "culpa",
+      "voluptate",
+      "labore",
+      "pariatur",
+      "incididunt",
+      "nisi"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "James Landry"
+      },
+      {
+        "id": 1,
+        "name": "Meagan Camacho"
+      },
+      {
+        "id": 2,
+        "name": "Yolanda Sharp"
+      }
+    ],
+    "greeting": "Hello, Harmon Forbes! You have 9 unread messages.",
+    "favoriteFruit": "banana"
+  }
+]
