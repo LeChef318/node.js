@@ -1,0 +1,21 @@
+{
+  "name": "node_webserver",
+  "version": "1.0.0",
+  "description": "node.js webserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none yet"
+  },
+  "keywords": [
+    "webserver",
+    "node.js",
+    "test"
+  ],
+  "author": "Jan Hoffmann",
+  "license": "MIT",
+  "type": "module"
+}
