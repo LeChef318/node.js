@@ -1,6 +1,6 @@
 "use strict"
 import { readFile } from "fs/promises";
-import { normalize, resolve } from "path";
+import * as path from "path";
 const forbiddenReq = ["HEAD", "POST", "PUT", "DELETE", "CONNECT", "OPTIONS", "TRACE", "PATCH"];
 
 class Request {
@@ -116,7 +116,7 @@ class Response {
     async createResponse(resource) {
         const rootDir = path.resolve('./resources')
         let filepath = resource === '/' ? '/index.html' : resource
-        const normalizedPath = path.normalize(path.join(rootDir, filepath));
+        const normalizedPath = path.normalize(path.join(rootDir, filepath))
         if (!normalizedPath.startsWith(rootDir)) {
             await this.create4xx(403)
             return;
