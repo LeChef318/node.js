@@ -24,13 +24,12 @@ async function handleRequest(socket, data) {
         await res.createResponse(req._resource)
     }
     console.log(res.parseResponse())
-    let x = Buffer.from(res.parseResponse(), 'utf8')
-    socket.write(x);
+    socket.write(res.parseResponse())
     console.log("Answer sent");
     socket.end();
 }
 
 
-var server = createServer();
-server.on('connection', newConnection);
-server.listen({ host: '127.0.0.1', port: 4242 });
+var server = createServer()
+server.on('connection', newConnection)
+server.listen({ host: '127.0.0.1', port: 4242 })

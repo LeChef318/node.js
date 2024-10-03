@@ -81,7 +81,7 @@ class Response {
             this._statusMsg = "Bad request"
             this.addHeader("Content-Type:", "application/json")
             try {
-                this._body = await readFile("./resources/400.json", "utf-8")
+                this._body = await readFile("./resources/400.json")
                 let cntLength = this._body.length
                 this.addHeader("Content-Length:", cntLength.toString())
             }
@@ -93,7 +93,7 @@ class Response {
             this._statusMsg = "Not found"
             this.addHeader("Content-Type:", "text/html; charset=UTF-8")
             try {
-                this._body = await readFile("./resources/404.html", "utf-8")
+                this._body = await readFile("./resources/404.html")
                 let cntLength = this._body.length
                 this.addHeader("Content-Length:", cntLength.toString())
             }
@@ -122,10 +122,12 @@ class Response {
             return;
         }
         try {
-            this._body = await readFile(normalizedPath, 'utf-8')
+            const contentType = this.getContentType(filepath)
+            this._body = await readFile(normalizedPath)
             this._protocol = "HTTP/1.1"
             this._status = 200
             this._statusMsg = "OK"
+            this.addHeader('Content-Type', contentType)
             this.addHeader("Content-Length:", this._body.length.toString())
         }
         catch (err) {
@@ -133,16 +135,28 @@ class Response {
             await this.create4xx(404)
         }
     }
+    getContentType(filepath) {
+        const ext = path.extname(filepath).toLowerCase()
+        const contentTypes = {
+            '.html': 'text/html',
+            '.js': 'text/javascript',
+            '.css': 'text/css',
+            '.json': 'application/json',
+            '.png': 'image/png',
+            '.jpg': 'image/jpeg',
+            '.gif': 'image/gif',
+        }
+        return contentTypes[ext] || 'application/octet-stream';
+    }
+
     parseResponse() {
-        let output = ""
-        output = this._protocol.concat(' ', this._status, ' ', this._statusMsg, '\r\n')
-        for(const [key, value] of this._headers) {
-            output = output.concat(key, ' ', value, "\r\n")
+        let headers = `${this._protocol} ${this._status} ${this._statusMsg}\r\n`
+        for (const [key, value] of this._headers) {
+            headers += `${key}: ${value}\r\n`
         }
-        if(this._body) {
-            output = output.concat('\r\n', this._body)
-        }
-        return output
+        headers += '\r\n'
+
+        return Buffer.concat([Buffer.from(headers), this._body])
     }
 }
 
